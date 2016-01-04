@@ -53,8 +53,36 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </div>
 
   <div data-role="main" class="ui-content" style="background:url('resources/img/foot.jpg')  repeat;">
-    <p>1我现在是一个移动端开发者!!</p>
-    
+   			<div data-role="navbar" class="Recommend">
+    		 	<ul>
+    		 		<li><a href="javascript:;" style="color:blue;border-bottom-color: white;">本周推荐:</a></li>
+    		 		<li><a href="javascript:;" style="color:blue;border-bottom-color: blue;">上周推荐:</a></li>
+    		 	</ul>
+      			<ul>
+       				 <li>
+       				 <a href="#">恶魔契约甜心</a>
+       				 </li>
+       				 <li><a href="#">花开锦绣</a></li>
+       				 <li><a href="#">恶少隐婚妻</a></li>
+       				 <li><a href="#">特种兵王在都市</a></li> 
+     			 </ul>
+      			<ul>
+       				 <li><a href="#">呆萌腹黑：倒追男神千次</a></li>
+     			 </ul>
+      			<ul>
+       				 <li><a href="#">鬼王宠妻：腹黑小魔妃</a></li>
+     			 </ul>
+      			<ul>
+       				 <li><a href="#">诸王争霸雄起：焚天之怒</a></li>
+     			 </ul>
+      			<ul>
+       				 <li><a href="#">极品高手：伺候美女沐浴</a></li>
+     			 </ul>
+      			<ul>
+       				 <li><a href="#">最畅销特种兵：最强兵王</a></li>
+     			 </ul>
+    		</div>
+    		
   </div>
 
   <div data-role="footer" class="foot">
